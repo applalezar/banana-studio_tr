@@ -93,7 +93,7 @@ MiniMax H3 Max modları: **Text to Video Max · Image to Video Max · Reference 
 | **İndirme ve paylaşım** | Görsel/video indir. Web alanında tamamlanmış görselleri görmek ve indirmek için süreli herkese açık klasör bağlantıları da oluşturulabilir. |
 | **Çalışma alanı yönetimi** | Webde hesap erişimi ve sahip/yönetici kontrolleri; bağımsız masaüstü uygulamasında yerel çalışma alanı. |
 
-[Görselli kullanım rehberini aç →](guide.md)
+[Görselli kullanım rehberini aç →](/docs/tr/guide.md)
 
 ## Başlangıç
 
@@ -125,13 +125,13 @@ API anahtarı, uygulamanın ilgili yapay zekâ servisindeki hesabını kullanmas
 
 Varsayılan yaratıcı model **Opus 5.5 / Medium** olarak kalır. Modeli, düşünme seviyesini ve **Auto / belirli sağlayıcı** seçimini **AI settings** üzerinden yap. Sağlayıcı üretim başlamadan belirlenir ve kayıtlı işte sabitlenir; sonucu belirsiz ücretli istek başka serviste tekrarlanmaz. Sonuçlarda kullanılan sağlayıcı görünür. Onayladığın edit alanının dışındaki kaynak pikseller her görsel bağlantısında korunur.
 
-OpenRouter Seedance bu uygulamada metin, first/last frame ve görsel referanslarını destekler; sabit süre ve görüntü oranı gerekir, Seedance 2.5 için 480p/720p sunar. Video/ses referansı, Edit/Extend, Auto süre veya 2.5 ile 1080p için fal.ai/EvoLink seç. **Relaxed** yalnızca EvoLink bağlantısına aittir. Bazı video referansı ön işlemleri ayrıca fal.ai kullanır. [Sağlayıcı limitleri, anahtar bağlantıları ve örnekler →](models.md)
+OpenRouter Seedance bu uygulamada metin, first/last frame ve görsel referanslarını destekler; sabit süre ve görüntü oranı gerekir, Seedance 2.5 için 480p/720p sunar. Video/ses referansı, Edit/Extend, Auto süre veya 2.5 ile 1080p için fal.ai/EvoLink seç. **Relaxed** yalnızca EvoLink bağlantısına aittir. Bazı video referansı ön işlemleri ayrıca fal.ai kullanır. [Sağlayıcı limitleri, anahtar bağlantıları ve örnekler →](/docs/tr/models.md)
 
 ## Hangi sistemlerle çalışıyor?
 
 Ortak arayüz **React + TypeScript + Vite** ile hazırlanır. Mac kabuğu **AppKit + WKWebView** kullanır; kendi **Node.js** sunucusunu taşır, verileri **SQLite + yerel dosyalara**, anahtarları **Anahtar Zinciri'ne** kaydeder, **Sparkle** ile güncellenir. Windows kabuğu **WinForms + WebView2**, aynı Node/SQLite çalışma alanı ve **Windows Credential Manager** kullanır. Web sürümü **Vercel Functions / Queues / Cron** ve **Supabase Postgres / Auth / özel Storage** kullanır; Google ile giriş yapılır.
 
-İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](../SECURITY.md) · [Mimari ve geliştirici kurulumu](development.md) · [Yayın prosedürü](../RELEASING.md)
+İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](../SECURITY.md) · [Mimari ve geliştirici kurulumu](/docs/tr/development.md) · [Yayın prosedürü](../RELEASING.md)
 
 <a id="web-kurulumu"></a>
 
@@ -141,6 +141,6 @@ Windows, Mac, mobil ve ekibin için tarayıcıdan açılan bir alan mı istiyors
 
 Rehberde terminal gerektirmeyen SQL Editor yolu, değişken tablosu, kontrol adımları ve hata çözümleri bulunur. Hazır bir Banana Studio veritabanı veya kişisel hesap dahil değildir.
 
-**[Adım adım web kurulum rehberini aç →](deploy.md)**
+**[Adım adım web kurulum rehberini aç →](/docs/tr/deploy.md)**
 
-<p align="center"><sub><a href="../../LICENSE">MIT</a> · <a href="../SECURITY.md">Güvenlik</a> · <a href="development.md">Katkıda bulun</a> · <a href="THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a> · <a href="../../README.md">English</a></sub></p>
+<p align="center"><sub><a href="../LICENSE">MIT</a> · <a href="../SECURITY.md">Güvenlik</a> · <a href="/docs/tr/development.md">Katkıda bulun</a> · <a href="/docs/tr/THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a> · <a href="../README.md">English</a></sub></p>
