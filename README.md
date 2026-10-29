@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/brand.svg" width="680" alt="Banana Studio" />
+  <img src="../docs/assets/brand.svg" width="680" alt="Banana Studio" />
 </p>
 
 <p align="center"><strong>Bir fikirden görsele, YouTube kapağına ve videoya.</strong><br />Kendi API anahtarlarınla çalışan açık kaynak yaratıcı çalışma alanı.</p>
