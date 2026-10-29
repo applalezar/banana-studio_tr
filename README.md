@@ -16,7 +16,7 @@
 
 **Banana Studio; görsel üretimi, seçili alan düzenleme, kapak planlama ve video üretimini aynı galeride toplar.** Bir cümleyle, referans görsellerle veya YouTube videosuyla başla. Brainstorm ile farklı fikirler keşfet, Enhance ile talimatını geliştir, sonuçları üret ve karşılaştır. Mac veya Windows uygulamasını kullanmak için kod yazman gerekmez.
 
-Uygulama [MIT lisansıyla](../../LICENSE) ücretsizdir. Yapay zekâ servisleri API kullanımını ayrıca ücretlendirir; model kredisi dahil değildir. Üretim için internet bağlantısı gerekir.
+Uygulama [MIT lisansıyla](../LICENSE) ücretsizdir. Yapay zekâ servisleri API kullanımını ayrıca ücretlendirir; model kredisi dahil değildir. Üretim için internet bağlantısı gerekir.
 
 <a id="özellikler"></a>
 
@@ -47,8 +47,8 @@ Editler iş olarak arka planda ilerler; ilerlemeyi ve yeni galeri sonuçlarını
 <details>
 <summary>Edit kontrollerini ve önce/sonra karşılaştırmasını gör</summary>
 
-<p><img src="../assets/edit-controls-real.jpg" width="1000" alt="Gerçek edit prompt kutusu: referans yükleme, model, kalite, artı/eksi görsel sayısı ve Enhance" /></p>
-<p><img src="../assets/comparison-real.jpg" width="1000" alt="Kaynak ve editlenen kapağın slider ile karşılaştırması: portre korunurken başlık değişiyor" /></p>
+<p><img src="docs/assets/edit-controls-real.jpg" width="1000" alt="Gerçek edit prompt kutusu: referans yükleme, model, kalite, artı/eksi görsel sayısı ve Enhance" /></p>
+<p><img src="docs/assets/comparison-real.jpg" width="1000" alt="Kaynak ve editlenen kapağın slider ile karşılaştırması: portre korunurken başlık değişiyor" /></p>
 
 Yukarıdaki dikdörtgen ve taslak, edit kontrollerini göstermek için hazırlanmıştır; bu ekran görüntüleri için yeni üretim gönderilmemiştir. Karşılaştırma aynı hesaptaki daha önce tamamlanmış bir editi gösterir.
 
@@ -73,7 +73,7 @@ MiniMax H3 Max modları: **Text to Video Max · Image to Video Max · Reference 
 <details>
 <summary>Gerçek video oynatıcısını ve kayıtlı üretim bilgilerini gör</summary>
 
-<p><img src="../assets/video-real.jpg" width="1000" alt="Gerçek galeri video oynatıcısı: seçili klip, prompt, kayıtlı model, süre ve kalite" /></p>
+<p><img src="docs/assets/video-real.jpg" width="1000" alt="Gerçek galeri video oynatıcısı: seçili klip, prompt, kayıtlı model, süre ve kalite" /></p>
 
 </details>
 
@@ -131,7 +131,7 @@ OpenRouter Seedance bu uygulamada metin, first/last frame ve görsel referanslar
 
 Ortak arayüz **React + TypeScript + Vite** ile hazırlanır. Mac kabuğu **AppKit + WKWebView** kullanır; kendi **Node.js** sunucusunu taşır, verileri **SQLite + yerel dosyalara**, anahtarları **Anahtar Zinciri'ne** kaydeder, **Sparkle** ile güncellenir. Windows kabuğu **WinForms + WebView2**, aynı Node/SQLite çalışma alanı ve **Windows Credential Manager** kullanır. Web sürümü **Vercel Functions / Queues / Cron** ve **Supabase Postgres / Auth / özel Storage** kullanır; Google ile giriş yapılır.
 
-İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](../../SECURITY.md) · [Mimari ve geliştirici kurulumu](development.md) · [Yayın prosedürü](../RELEASING.md)
+İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](../SECURITY.md) · [Mimari ve geliştirici kurulumu](development.md) · [Yayın prosedürü](../RELEASING.md)
 
 <a id="web-kurulumu"></a>
 
@@ -143,4 +143,4 @@ Rehberde terminal gerektirmeyen SQL Editor yolu, değişken tablosu, kontrol ad�
 
 **[Adım adım web kurulum rehberini aç →](deploy.md)**
 
-<p align="center"><sub><a href="../../LICENSE">MIT</a> · <a href="../../SECURITY.md">Güvenlik</a> · <a href="development.md">Katkıda bulun</a> · <a href="../THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a> · <a href="../../README.md">English</a></sub></p>
+<p align="center"><sub><a href="../../LICENSE">MIT</a> · <a href="../SECURITY.md">Güvenlik</a> · <a href="development.md">Katkıda bulun</a> · <a href="THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a> · <a href="../../README.md">English</a></sub></p>
