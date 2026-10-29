@@ -1,48 +1,48 @@
 <p align="center">
-  <img src="/docs/assets/brand.svg" width="680" alt="Banana Studio" />
+  <img src="docs/assets/brand.svg" width="680" alt="Banana Studio" />
 </p>
 
 <p align="center"><strong>Bir fikirden görsele, YouTube kapağına ve videoya.</strong><br />Kendi API anahtarlarınla çalışan açık kaynak yaratıcı çalışma alanı.</p>
 
 <p align="center">
-  <a href="/README_en.md">English</a> · <strong>Türkçe</strong> ·
+  <a href="README_en.md">English</a> · <strong>Türkçe</strong> ·
   <a href="https://github.com/orkunisitmak/banana-studio/releases/latest">Mac / Windows indir</a> ·
   <a href="#özellikler">Özellikler</a> · <a href="#web-kurulumu">Web kurulumu</a>
 </p>
 
-<p align="center"><img src="/docs/assets/gallery-real.jpg" width="1200" alt="Proje sahibinin gerçek iPhone kapak üretimleri, kişi referansları, prompt ve üretim kontrolleriyle web galerisinde" /></p>
+<p align="center"><img src="docs/assets/gallery-real.jpg" width="1200" alt="Proje sahibinin gerçek iPhone kapak üretimleri, kişi referansları, prompt ve üretim kontrolleriyle web galerisinde" /></p>
 
-<p align="center"><sub>Proje sahibinin hesabındaki gerçek üretimler ve arayüz görüntüleri, izniyle paylaşılmıştır. <a href="../assets/README.md">Demolar hakkında</a></sub></p>
+<p align="center"><sub>Proje sahibinin hesabındaki gerçek üretimler ve arayüz görüntüleri, izniyle paylaşılmıştır. <a href="docs/assets/README.md">Demolar hakkında</a></sub></p>
 
-**Banana Studio; görsel üretimi, seçili alan düzenleme, kapak planlama ve video üretimini aynı galeride toplar.** Bir cümleyle, referans görsellerle veya YouTube videosuyla başla. Brainstorm ile farklı fikirler keşfet, Enhance ile talimatını geliştir, sonuçları üret ve karşılaştır. Mac veya Windows uygulamasını kullanmak için kod yazman gerekmez.
+**Banana Studio; görsel üretimi, seçili alan düzenleme, kapak planlama ve video üretimini aynı galeride toplar.** Bir cümleyle, referans görsellerle veya YouTube videosuyla başla. Brainstorm ile fikirleri keşfet, Enhance ile promptu geliştir, seçili alanı düzenle ve tek galeride video üret.
 
-Uygulama [MIT lisansıyla](../LICENSE) ücretsizdir. Yapay zekâ servisleri API kullanımını ayrıca ücretlendirir; model kredisi dahil değildir. Üretim için internet bağlantısı gerekir.
+Uygulama [MIT lisansıyla](LICENSE) ücretsizdir. Yapay zekâ servisleri API kullanımını ayrıca ücretlendirir; model kredisi dahil değildir. Üretim için internet bağlantısı gerekir.
 
 <a id="özellikler"></a>
 
 ## Brainstorm ile fikirler keşfet
 
-Tek brief'ten **birbirinden farklı fikirler**, her fikir için de birden fazla görsel oluştur. Genel fikirler için **Simple**, kapak konseptleri için **YouTube** modunu seç. Fikir sayısı ve fikir başına görsel sayısı ayrıdır: beş fikir × dört görsel, yirmi sonuç üretir.
+Tek brief'ten **birbirinden farklı fikirler**, her fikir için de birden fazla görsel oluştur. Genel fikirler için **Simple**, kapak konseptleri için **YouTube** modunu seç. Fikir sayısı ve fikir başına görsel sayısı değiştirilebilir.
 
-Brainstorm; brief'ini, seçtiğin People kayıtlarını ve referansların rollerini kullanır. YouTube kapaklarında okunabilir kompozisyon, kameraya bakan kişiler ve brief'te sabit kıyafet istemediysen fikirler arasında farklı kombinler için talimat verir. Kendi yaratıcı yönlendirmelerin de isteğin parçasıdır.
+Brainstorm; brief'ini, seçtiğin People kayıtlarını ve referansların rollerini kullanır. YouTube kapaklarında okunabilir kompozisyon, kameraya bakan kişiler ve brief'te sabit kıyafet istenmediğinde farklı kıyafet planları üretir.
 
-<p align="center"><img src="docs/assets/brainstorm-real.jpg" width="1000" alt="Gerçek kapakların üzerinde Brainstorm paneli: YouTube modu, beş fikir, aynı kişiye ait fotoğraf grubu ve üretilecek görsel toplamı" /></p>
+<p align="center"><img src="docs/assets/brainstorm-real.jpg" width="1000" alt="Gerçek kapakların üzerinde Brainstorm paneli: YouTube modu, beş fikir, aynı kişiye ait fotoğraf grubu ve üretilebilecek görsel sayısı" /></p>
 
 ## Enhance ile promptunu geliştir
 
-Kısa fikrini kendi cümlelerinle yaz. **Enhance**, seçili görsel veya video modeline uygun daha açık talimatlar hazırlar: kişi/nesne, kompozisyon, ışık, referans rolleri; videoda hareket ve zamanlama. Alan düzenleme içinde de çalışır. Sonucu kontrol et, kendin düzenle veya **Revert** ile ilk taslağına dön.
+Kısa fikrini kendi cümlelerinle yaz. **Enhance**, seçili görsel veya video modeline uygun daha açık talimatlar hazırlar: kişi/nesne, kompozisyon, ışık, referans rolleri; videoda hareket ve sahne planı.
 
-Türkçe taslaklardan da üretim açıklamaları İngilizce hazırlanır; görselde görünmesini istediğin yazılar, özel isimler ve alıntılanan diyaloglar istenen dilde kalır. **AI settings** bölümünde **Opus 5.5, GPT-6.1 Sol veya Gemini 3.8 Flash** ve düşünme seviyesini seç. Başlangıç ayarı **Opus 5.5 / Medium**. Kayıt varsa kullanılan hazırlama modeli ve düşünme seviyesi detaylarda saklanır.
+Türkçe taslaklardan da üretim açıklamaları İngilizce hazırlanır; görselde görünmesini istediğin yazılar, özel isimler ve alıntılanan diyaloglar istenen dilde kalır. **AI settings** üzerinden model, düşünme seviyesi ve sağlayıcı seçeneklerini seç.
 
 ## Bir alanı düzenle, geri kalanını koru
 
-**Edit image** aç, içi dolan serbest çizim **Mask** veya **Rectangle** ile alan seç, değişikliği anlat. Her seçim bir katmandır: **Shift + çizim** yeni katman ekler; yatay şeritten katmanı seçebilir, yeniden çizebilir veya kaldırabilirsin. Ek görsel referansı yükle, edit promptunda `@` ile kullan. Modeli, kaliteyi ve görsel sayısını seç; istersen Enhance et.
+**Edit image** aç, içi dolan serbest çizim **Mask** veya **Rectangle** ile alan seç, değişikliği anlat. Her seçim bir katmandır: **Shift + çizim** yeni katman ekler; yatay şeritten katmanı seçip yeniden çizebilirsin. Edit promptu için referans yükleyebilir, modeli ve kaliteyi seçebilirsin.
 
-**Son seçimin dışındaki pikseller kaynak görselden korunur.** Referans eklemek normal üretim akışında kalır; korumalı edit yalnızca açıkça alan seçtiğinde başlar. Yeni siluet gerektiren değişikliklerde yeterli çevreyi de seç: elde tutulan nesneyi kaldırmak için el ve bileği dahil etmek gerekebilir.
+**Son seçimin dışındaki pikseller kaynak görselden korunur.** Referans eklemek normal üretim akışında kalır; korumalı edit yalnızca açıkça alan seçtiğinde başlar. Yeni siluet gerektiğinde ayrı katmanlar oluşturulur.
 
-<p align="center"><img src="/docs/assets/area-edit-real.jpg" width="1000" alt="Gerçek üretilmiş kapakta alan düzenleme: başlık ve fiyat dikdörtgen katmanda seçili; kişinin yüzü seçimin dışında" /></p>
+<p align="center"><img src="docs/assets/area-edit-real.jpg" width="1000" alt="Gerçek üretilmiş kapakta alan düzenleme: başlık ve fiyat dikdörtgen katmanda seçili; kişinin yüzü seçimin dışında korunuyor" /></p>
 
-Editler iş olarak arka planda ilerler; ilerlemeyi ve yeni galeri sonuçlarını takip edebilirsin. Önceki sonucu beklemeden başka deneme gönder. **Kaynak/sonuç sliderı** ile karşılaştır, kaynağa dön veya **Edit this result** ile yeni sonuç üzerinden devam et.
+Editler iş olarak arka planda ilerler; ilerlemeyi ve yeni galeri sonuçlarını takip edebilirsin. Önceki sonucu beklemeden başka deneme gönder. **Kaynak/sonuç sliderı** ile karşılaştır, kaynağa dön veya sonucu seç.
 
 <details>
 <summary>Edit kontrollerini ve önce/sonra karşılaştırmasını gör</summary>
@@ -56,19 +56,19 @@ Yukarıdaki dikdörtgen ve taslak, edit kontrollerini göstermek için hazırlan
 
 ## YouTube videosundan kapak üretimine
 
-**YT** ile kanal veya video bul, videoyu analiz et, bölümün ana vaadini kontrol et, gösterilecek kişileri seç. Brief'i Brainstorm'a gönder veya üretim öncesinde düzenle. Kanalın önceki kapaklarını stil, People fotoğraflarını kimlik, ürün görsellerini nesne referansı olarak ekle. Bitmiş kapağı **YouTube Preview** ile örnek bir YouTube yerleşiminde incele.
+**YT** ile kanal veya video bul, videoyu analiz et, bölümün ana vaadini kontrol et, gösterilecek kişileri seç. Brief'i Brainstorm'a gönder veya üretim öncesinde düzenle. Kanalın önceki kapaklarını ve referansları normal üretim akışında kullan.
 
-Videoyu okuma ve yaratıcı brief ayrı sağlayıcı akışları kullanır. Gerekli kombinasyonu [anahtar rehberi](models.md) açıklar. [Kapak üretim adımlarını izle →](guide.md#youtube-kapağı-planla)
+Videoyu okuma ve yaratıcı brief ayrı sağlayıcı akışları kullanır. Gerekli kombinasyonu [anahtar rehberi](docs/tr/models.md) açıklar. [Kapak üretim adımlarını izle →](docs/tr/guide.md#youtube-kapagi-uretim-adimi)
 
 ## Metin, görsel ve referanslarla video üret
 
-Süre, en-boy oranı, kalite ve girdiler için modele uygun kontrolleri kullan. **Seedance 2.0 / 2.5 Relaxed** ve **MiniMax H3 Max** farklı akışlar sunar; arayüz seçili moda uygun ayarları gösterir. Seedance 2.5 first/last-frame modunda açılış ve bitişi yönlendirmek için iki durağan görsel kullanılır.
+Süre, en-boy oranı, kalite ve girdiler için modele uygun kontrolleri kullan. **Seedance 2.0 / 2.5 Relaxed** ve **MiniMax H3 Max** farklı akışlar sunar; arayüz seçili moda uygun ayarları gösterir.
 
-MiniMax H3 Max modları: **Text to Video Max · Image to Video Max · Reference to Video Max · Extend Video Max · Lip Sync Max · Recast**. Desteklenen modlarda görsel, video veya ses referansı ekle; Enhance ile hareket talimatını hazırla, işi takip et, sonucu oynat veya indir.
+MiniMax H3 Max modları: **Text to Video Max · Image to Video Max · Reference to Video Max · Extend Video Max · Lip Sync Max · Recast**. Desteklenen modlarda görsel, video veya ses referansı ekle; Enhance ile hazırlanan kısa hedefi kullan, sonuç için gerekli tüm ayarları belirle.
 
-<p align="center"><a href="https://github.com/orkunisitmak/banana-studio/raw/refs/heads/main/docs/assets/video-demo.mp4"><img src="../assets/video-preview.gif" width="640" alt="Gerçek üretilmiş video önizlemesi: kostümlü iki karakter oyuncak makinesindeki peluşların arasından çıkıyor" /></a></p>
+<p align="center"><a href="https://github.com/orkunisitmak/banana-studio/raw/refs/heads/main/docs/assets/video-demo.mp4"><img src="docs/assets/video-preview.gif" width="640" alt="Gerçek üretilmiş video klibi" /></a></p>
 
-<p align="center"><strong><a href="https://github.com/orkunisitmak/banana-studio/raw/refs/heads/main/docs/assets/video-demo.mp4">15 saniyelik gerçek klibi indir (MP4) →</a></strong><br /><sub>Sahibinin hesabından daha önce üretilmiş MiniMax H3 klibi. Küçültülmüş, sessiz dokümantasyon önizlemesi; güncel Max modelinin yeni bir testi değildir.</sub></p>
+<p align="center"><strong><a href="https://github.com/orkunisitmak/banana-studio/raw/refs/heads/main/docs/assets/video-demo.mp4">15 saniyelik gerçek klibi indir (MP4) →</a></strong><br /><sub>Sahibin hesabından alınmış gerçek üretim örneği; yalnızca belge amaçlı yayına uygun şekilde küçültülmüş ve ses/üretim meta verileri kaldırılmıştır.</sub></p>
 
 <details>
 <summary>Gerçek video oynatıcısını ve kayıtlı üretim bilgilerini gör</summary>
@@ -87,28 +87,28 @@ MiniMax H3 Max modları: **Text to Video Max · Image to Video Max · Reference 
 | **Referans kütüphanesi ve şablonlar** | Kaynakları, kayıtlı prompt ve ayar kombinasyonlarını farklı projelerde yeniden kullan. |
 | **Re-create ve Variation** | Bir sonucun prompt ve ayarlarını geri yükle veya yeni varyasyon keşfet. |
 | **Galeri düzeni** | İç içe klasör, favori, arama, görsel/video filtresi, grid yoğunluğu, çoklu seçim ve klasörler arası taşıma. |
-| **Görüntüleyici ve karşılaştırma** | Doğal görsel oranı, zoom/kaydırma, yan yana görsel karşılaştırması ve kaynak/edit sliderı. Oklarla gezinme, **Shift+B** ile Details açma/kapatma, mobilde kaydırarak gezinme ve kapatma. |
+| **Görüntüleyici ve karşılaştırma** | Doğal görsel oranı, zoom/kaydırma, yan yana görsel karşılaştırması ve kaynak/edit sliderı. Oklarla gezinme, **Shift+B** ile Details açma/kapatma ve mobil kaydırma. |
 | **İşler ve geçmiş** | İlerleme, bildirimler, tamamlanan sonuçlar ve kurtarılabilen iş bilgileri; webde OpenAI görsel işleri kalıcı kuyruk kullanır. |
-| **Üretim detayları** | Mevcut prompt, referans, boyut, model, kalite, maliyet, süre, hazırlama modeli/düşünme seviyesi ve kayıtlı edit katmanları/kaynağı. Eski kayıtlarda bazı alanlar bulunmayabilir. |
+| **Üretim detayları** | Mevcut prompt, referans, boyut, model, kalite, maliyet, süre, hazırlama modeli/düşünme seviyesi ve kayıtlı edit katmanları/kaynağı. Eski kayıtlarda bazı alanlar eksik olabilir. |
 | **İndirme ve paylaşım** | Görsel/video indir. Web alanında tamamlanmış görselleri görmek ve indirmek için süreli herkese açık klasör bağlantıları da oluşturulabilir. |
 | **Çalışma alanı yönetimi** | Webde hesap erişimi ve sahip/yönetici kontrolleri; bağımsız masaüstü uygulamasında yerel çalışma alanı. |
 
-[Görselli kullanım rehberini aç →](/docs/tr/guide.md)
+[Görselli kullanım rehberini aç →](docs/tr/guide.md)
 
 ## Başlangıç
 
 | Cihazın | Bugün sunulan sürüm | Buradan başla |
 | --- | --- | --- |
-| Apple Silicon işlemcili Mac | Bağımsız uygulama, macOS 13.5+ | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-macos-arm64.zip) · [Kurulum rehberi](desktop.md) |
-| Intel işlemcili Mac | Bağımsız uygulama, macOS 13.5+ | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-macos-x64.zip) · [Kurulum rehberi](desktop.md) |
-| Windows 10/11, 64-bit Intel/AMD | Bağımsız taşınabilir uygulama | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-windows-x64.zip) · [Kurulum rehberi](desktop.md#windows-indir-ve-aç) |
+| Apple Silicon işlemcili Mac | Bağımsız uygulama, macOS 13.5+ | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-macos-arm64.zip) · [Kurulum rehberi](docs/tr/desktop.md) |
+| Intel işlemcili Mac | Bağımsız uygulama, macOS 13.5+ | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-macos-x64.zip) · [Kurulum rehberi](docs/tr/desktop.md) |
+| Windows 10/11, 64-bit Intel/AMD | Bağımsız taşınabilir uygulama | [İndir](https://github.com/orkunisitmak/banana-studio/releases/download/v0.1.2/Banana-Studio-0.1.2-windows-x64.zip) · [Kurulum rehberi](docs/tr/desktop.md) |
 | Diğer bilgisayarlar, telefon ve tablet | Tarayıcı üzerinden web sürümü | Kurulmuş web adresini aç; erişimi ve servis anahtarlarını web alanının sahibi yönetir. |
 
-**Masaüstünde hızlı başlangıç:** indir → zip'i ayıkla → aç (Mac'te önce Uygulamalar'a taşı) → **Provider keys** → modelin anahtarını gir → üret. Bağımsız uygulamada **Supabase, Vercel, Google ile giriş veya ayrıca Node kurulumu gerekmez**. Galeri bilgisayarında; anahtarlar Mac'te Anahtar Zinciri'nde, Windows'ta Credential Manager'da tutulur. Üretim sürerken uygulamayı açık tut; pencereyi küçültebilirsin. [İlk açılış izinleri, güncelleme ve yedekleme →](desktop.md)
+**Masaüstünde hızlı başlangıç:** indir → zip'i ayıkla → aç (Mac'te önce Uygulamalar'a taşı) → **Provider keys** → modelin anahtarını gir → üret. Bağımsız uygulamada **Supabase, Vercel, Google veya özel sunucu gerektirmez**.
 
 ## Modeller ve API anahtarları
 
-API anahtarı, uygulamanın ilgili yapay zekâ servisindeki hesabını kullanmasını sağlayan özel bir erişim bilgisidir. Yalnızca kullanacağın servisleri ekle. Tablo **bu uygulamanın kullandığı bağlantıları** gösterir; modelleri sunan tüm servislerin listesi değildir.
+API anahtarı, uygulamanın ilgili yapay zekâ servisindeki hesabını kullanmasını sağlayan özel bir erişim bilgisidir. Yalnızca kullanacağın servisleri ekle. Tablo **bu uygulamanın kullandığı yönleri** gösterir; model listesi değil.
 
 | Model veya özellik | Sağlayıcılar (Auto önceliği) | Uygun anahtarlardan biri yeterli |
 | --- | --- | --- |
@@ -121,26 +121,26 @@ API anahtarı, uygulamanın ilgili yapay zekâ servisindeki hesabını kullanmas
 | MiniMax H3 Max — metin/görsel/referanstan video, uzatma, lip sync ve recast | fal.ai | `FAL_KEY` |
 | YouTube kanal/video araması | Google YouTube Data API v3 | `YOUTUBE_API_KEY` |
 
-**Tek sağlayıcıyla başlayabilirsin:** **OpenRouter anahtarı** GPT/Nano görselleri, Opus/GPT/Gemini metin özellikleri, video analizi ve desteklenen Seedance işlemlerini açabilir. **fal.ai anahtarı** GPT/Nano görsel, Seedance ve H3 Max video için yeterli olabilir; Enhance/Brainstorm için ayrıca bir metin sağlayıcısı ekle. **Gemini anahtarı** Nano görsellerini ve Gemini metin/analizini açar. Bütün anahtarları girmen gerekmez. YouTube arama/bilgileri için ayrı YouTube Data API anahtarı gerekir.
+**Tek sağlayıcıyla başlayabilirsin:** **OpenRouter anahtarı** GPT/Nano görselleri, Opus/GPT/Gemini metin özellikleri, video analizi ve desteklenen Seedance işlemlerini açabilir. **fal.ai anahtarı** GPT/Nano görselleri, Seedance ve H3 Max videoyu açabilir; Enhance/Brainstorm için ayrı metin sağlayıcı gerektiğinde OpenRouter eklenir.
 
-Varsayılan yaratıcı model **Opus 5.5 / Medium** olarak kalır. Modeli, düşünme seviyesini ve **Auto / belirli sağlayıcı** seçimini **AI settings** üzerinden yap. Sağlayıcı üretim başlamadan belirlenir ve kayıtlı işte sabitlenir; sonucu belirsiz ücretli istek başka serviste tekrarlanmaz. Sonuçlarda kullanılan sağlayıcı görünür. Onayladığın edit alanının dışındaki kaynak pikseller her görsel bağlantısında korunur.
+Varsayılan yaratıcı model **Opus 5.5 / Medium** olarak kalır. Modeli, düşünme seviyesini ve **Auto / belirli sağlayıcı** seçimini **AI settings** üzerinden yap. Sağlayıcı üretim başlatma öncesinde seçilir ve kaydedilen işlerle birlikte saklanır.
 
-OpenRouter Seedance bu uygulamada metin, first/last frame ve görsel referanslarını destekler; sabit süre ve görüntü oranı gerekir, Seedance 2.5 için 480p/720p sunar. Video/ses referansı, Edit/Extend, Auto süre veya 2.5 ile 1080p için fal.ai/EvoLink seç. **Relaxed** yalnızca EvoLink bağlantısına aittir. Bazı video referansı ön işlemleri ayrıca fal.ai kullanır. [Sağlayıcı limitleri, anahtar bağlantıları ve örnekler →](/docs/tr/models.md)
+OpenRouter Seedance bu uygulamada metin, first/last frame ve görsel referanslarını destekler; sabit süre ve görüntü oranı gerekir, Seedance 2.5 için 480p/720p sunar. Video/ses referansı, Extend/Auto ve 1080p için fal.ai/EvoLink gerekir.
 
 ## Hangi sistemlerle çalışıyor?
 
-Ortak arayüz **React + TypeScript + Vite** ile hazırlanır. Mac kabuğu **AppKit + WKWebView** kullanır; kendi **Node.js** sunucusunu taşır, verileri **SQLite + yerel dosyalara**, anahtarları **Anahtar Zinciri'ne** kaydeder, **Sparkle** ile güncellenir. Windows kabuğu **WinForms + WebView2**, aynı Node/SQLite çalışma alanı ve **Windows Credential Manager** kullanır. Web sürümü **Vercel Functions / Queues / Cron** ve **Supabase Postgres / Auth / özel Storage** kullanır; Google ile giriş yapılır.
+Ortak arayüz **React + TypeScript + Vite** ile hazırlanır. Mac kabuğu **AppKit + WKWebView** kullanır; kendi **Node.js** sunucusunu taşır, verileri **SQLite + yerel dosyalara**, anahtarları **macOS Keychain / Windows Credential Manager** içinde tutar.
 
-İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](../SECURITY.md) · [Mimari ve geliştirici kurulumu](/docs/tr/development.md) · [Yayın prosedürü](../RELEASING.md)
+İşlemde kullanılan prompt ve referanslar ilgili sağlayıcıya gönderilir. Masaüstü ve web galerileri ayrıdır; Masaüstü uygulamaları otomatik bulut senkronizasyonu yapmaz. [Veri sınırları](SECURITY.md) · [Mimari](docs/tr/development.md)
 
 <a id="web-kurulumu"></a>
 
 ## Kendi web alanını kur
 
-Windows, Mac, mobil ve ekibin için tarayıcıdan açılan bir alan mı istiyorsun? Repoyu kendi GitHub hesabına kopyala, kendi Supabase projeni oluştur, Vercel'e deploy et. Supabase bilgilerini ve servis anahtarlarını **sunucu ortam değişkenlerine** ekle, Google girişini ayarla ve ilk yöneticiyi etkinleştir. Dakikalık Cron için bunu destekleyen Vercel planı gerekir; yalnızca arayüzü yüklemek yetmez.
+Windows, Mac, mobil ve ekibin için tarayıcıdan açılan bir alan mı istiyorsun? Repoyu kendi GitHub hesabına kopyala, kendi Supabase projeni oluştur, Vercel'e deploy et. Supabase bilgilerini ve servis anahtarlarını güvenli şekilde yönetin; kullanıcı medya, yerel veritabanı veya özel hesap ayarlarını asla repoya eklemeyin.
 
 Rehberde terminal gerektirmeyen SQL Editor yolu, değişken tablosu, kontrol adımları ve hata çözümleri bulunur. Hazır bir Banana Studio veritabanı veya kişisel hesap dahil değildir.
 
-**[Adım adım web kurulum rehberini aç →](/docs/tr/deploy.md)**
+**[Adım adım web kurulum rehberini aç →](docs/tr/deploy.md)**
 
-<p align="center"><sub><a href="../LICENSE">MIT</a> · <a href="../SECURITY.md">Güvenlik</a> · <a href="/docs/tr/development.md">Katkıda bulun</a> · <a href="/docs/tr/THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a> · <a href="../README.md">English</a></sub></p>
+<p align="center"><sub><a href="LICENSE">MIT</a> · <a href="SECURITY.md">Güvenlik</a> · <a href="docs/tr/development.md">Katkıda bulun</a> · <a href="docs/THIRD_PARTY_NOTICES.md">Üçüncü taraf bildirimleri</a></sub></p>
