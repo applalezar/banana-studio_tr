@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../docs/assets/brand.svg" width="680" alt="Banana Studio" />
+  <img src="/docs/assets/brand.svg" width="680" alt="Banana Studio" />
 </p>
 
 <p align="center"><strong>Bir fikirden görsele, YouTube kapağına ve videoya.</strong><br />Kendi API anahtarlarınla çalışan açık kaynak yaratıcı çalışma alanı.</p>
@@ -10,7 +10,7 @@
   <a href="#özellikler">Özellikler</a> · <a href="#web-kurulumu">Web kurulumu</a>
 </p>
 
-<p align="center"><img src="../assets/gallery-real.jpg" width="1200" alt="Proje sahibinin gerçek iPhone kapak üretimleri, kişi referansları, prompt ve üretim kontrolleriyle web galerisinde" /></p>
+<p align="center"><img src="/docs/assets/gallery-real.jpg" width="1200" alt="Proje sahibinin gerçek iPhone kapak üretimleri, kişi referansları, prompt ve üretim kontrolleriyle web galerisinde" /></p>
 
 <p align="center"><sub>Proje sahibinin hesabındaki gerçek üretimler ve arayüz görüntüleri, izniyle paylaşılmıştır. <a href="../assets/README.md">Demolar hakkında</a></sub></p>
 
@@ -26,7 +26,7 @@ Tek brief'ten **birbirinden farklı fikirler**, her fikir için de birden fazla 
 
 Brainstorm; brief'ini, seçtiğin People kayıtlarını ve referansların rollerini kullanır. YouTube kapaklarında okunabilir kompozisyon, kameraya bakan kişiler ve brief'te sabit kıyafet istemediysen fikirler arasında farklı kombinler için talimat verir. Kendi yaratıcı yönlendirmelerin de isteğin parçasıdır.
 
-<p align="center"><img src="../assets/brainstorm-real.jpg" width="1000" alt="Gerçek kapakların üzerinde Brainstorm paneli: YouTube modu, beş fikir, aynı kişiye ait fotoğraf grubu ve üretilecek görsel toplamı" /></p>
+<p align="center"><img src="docs/assets/brainstorm-real.jpg" width="1000" alt="Gerçek kapakların üzerinde Brainstorm paneli: YouTube modu, beş fikir, aynı kişiye ait fotoğraf grubu ve üretilecek görsel toplamı" /></p>
 
 ## Enhance ile promptunu geliştir
 
