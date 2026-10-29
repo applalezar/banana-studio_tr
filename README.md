@@ -5,7 +5,7 @@
 <p align="center"><strong>Bir fikirden görsele, YouTube kapağına ve videoya.</strong><br />Kendi API anahtarlarınla çalışan açık kaynak yaratıcı çalışma alanı.</p>
 
 <p align="center">
-  <a href="../../README.md">English</a> · <strong>Türkçe</strong> ·
+  <a href="/README_en.md">English</a> · <strong>Türkçe</strong> ·
   <a href="https://github.com/orkunisitmak/banana-studio/releases/latest">Mac / Windows indir</a> ·
   <a href="#özellikler">Özellikler</a> · <a href="#web-kurulumu">Web kurulumu</a>
 </p>
@@ -40,7 +40,7 @@ Türkçe taslaklardan da üretim açıklamaları İngilizce hazırlanır; görse
 
 **Son seçimin dışındaki pikseller kaynak görselden korunur.** Referans eklemek normal üretim akışında kalır; korumalı edit yalnızca açıkça alan seçtiğinde başlar. Yeni siluet gerektiren değişikliklerde yeterli çevreyi de seç: elde tutulan nesneyi kaldırmak için el ve bileği dahil etmek gerekebilir.
 
-<p align="center"><img src="../assets/area-edit-real.jpg" width="1000" alt="Gerçek üretilmiş kapakta alan düzenleme: başlık ve fiyat dikdörtgen katmanda seçili; kişinin yüzü seçimin dışında" /></p>
+<p align="center"><img src="/docs/assets/area-edit-real.jpg" width="1000" alt="Gerçek üretilmiş kapakta alan düzenleme: başlık ve fiyat dikdörtgen katmanda seçili; kişinin yüzü seçimin dışında" /></p>
 
 Editler iş olarak arka planda ilerler; ilerlemeyi ve yeni galeri sonuçlarını takip edebilirsin. Önceki sonucu beklemeden başka deneme gönder. **Kaynak/sonuç sliderı** ile karşılaştır, kaynağa dön veya **Edit this result** ile yeni sonuç üzerinden devam et.
 
